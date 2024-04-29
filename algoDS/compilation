@@ -1,0 +1,35 @@
+gcc -std=c90 -Wall -Wpedantic minheap.c minheap-main.c -o minheap-main
+./minheap-main /home/eric/Desktop/uniAlgo/algoDS/input/minheap.in
+
+gcc -std=c90 -Wall -Wpedantic hashtable.c hashtable-main.c -o hashtable-main
+./hashtable-main /home/eric/Desktop/uniAlgo/algoDS/input/hashtable.in
+
+gcc -std=c90 -Wall -Wpedantic list.c list-main.c -o list-main
+./list-main /home/eric/Desktop/uniAlgo/algoDS/input/list.in
+
+gcc -std=c90 -Wall -Wpedantic hashtable.c conta-parole.c -o conta-parole
+./conta-parole /home/eric/Desktop/uniAlgo/algoDS/input/contaparole.in
+
+gcc -std=c90 -Wall -Wpedantic bst.c bst-main.c -o bst-main
+./bst-main /home/eric/Desktop/uniAlgo/algoDS/input/bst.in
+
+gcc -std=c90 -Wall -Wpedantic conta-occorrenze.c -o conta-occorrenze
+./conta-occorrenze /home/eric/Desktop/uniAlgo/algoDS/input/the-time-machine.txt
+
+gcc -std=c90 -Wall -Wpedantic cut-rod.c -o cut-rod
+./cut-rod /home/eric/Desktop/uniAlgo/algoDS/input/cut-rod1.in
+
+gcc -std=c90 -Wall -Wpedantic formatter.c -o formatter
+./formatter 65 /home/eric/Desktop/uniAlgo/algoDS/input/divina-commedia-canto1.in
+
+gcc -std=c90 -Wall -Wpedantic resto-greedy.c -o resto-greedy
+./resto-greedy /home/eric/Desktop/uniAlgo/algoDS/input/resto-greedy.in
+
+gcc -std=c99 -Wall -Wpedantic graph.c graph-main.c -o graph-main
+./graph-main /home/eric/Desktop/uniAlgo/algoDS/input/graph10.in
+
+gcc -std=c90 -Wall -Wpedantic list.c graph.c bfs.c -o bfs
+./bfs 0 /home/eric/Desktop/uniAlgo/algoDS/input/graph10.in
+
+gcc -std=c90 -Wall -Wpedantic graph.c dfs.c -o dfs
+./dfs /home/eric/Desktop/uniAlgo/algoDS/input/graph10.in

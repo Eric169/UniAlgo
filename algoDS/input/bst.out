@@ -1,0 +1,27 @@
+bst_height(T) = -1
+bst_insert(T, 10) = OK
+bst_height(T) = 0
+bst_insert(T, 5) = OK
+bst_height(T) = 1
+bst_size(T) = 2
+bst_insert(T, 9) = OK
+bst_insert(T, 12) = OK
+bst_insert(T, 55) = OK
+bst_insert(T, -3) = OK
+bst_search(T, 10) = FOUND
+bst_search(T, 7) = NOT FOUND
+(10 (5 (-3 () ()) (9 () ())) (12 () (55 () ())))
+bst_insert(T, 11) = OK
+bst_insert(T, 100) = OK
+bst_insert(T, 130) = OK
+bst_insert(T, 38) = OK
+bst_insert(T, 7) = OK
+bst_insert(T, 8) = OK
+bst_delete(T, 10) = OK
+bst_size(T) = 11
+bst_delete(T, -3) = OK
+bst_delete(T, 12) = OK
+(11 (5 () (9 (7 () (8 () ())) ())) (55 (38 () ()) (100 () (130 () ()))))
+bst_delete(T, 55) = OK
+bst_height(T) = 4
+bst_size(T) = 8

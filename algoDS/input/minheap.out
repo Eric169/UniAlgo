@@ -1,0 +1,32 @@
+CREATE 10
+INSERT 9 0.000000
+INSERT 0 -3.000000
+INSERT 1 12.000000
+INSERT 2 4.000000
+INSERT 5 -2.000000
+INSERT 6 3.500000
+INSERT 7 12.100000
+
+** Contenuto dello heap:
+
+n=7 size=10
+Contenuto dell'array heap[] (stampato a livelli:
+h[ 0]=( 0,  -3.00) 
+h[ 1]=( 5,  -2.00) h[ 2]=( 6,   3.50) 
+h[ 3]=( 2,   4.00) h[ 4]=( 9,   0.00) h[ 5]=( 1,  12.00) h[ 6]=( 7,  12.10) 
+
+Contenuto dell'array pos[]:
+pos[0]=0 pos[1]=5 pos[2]=3 pos[3]=-1 pos[4]=-1 pos[5]=1 pos[6]=2 pos[7]=6 pos[8]=-1 pos[9]=4 
+
+** Fine contenuto dello heap
+
+MIN = 0
+CHANGE_PRIO 0 3.000000
+MIN = 5
+DELETE_MIN
+MIN = 9
+DELETE_MIN
+MIN = 0
+DELETE_MIN
+MIN = 6
+N = 4

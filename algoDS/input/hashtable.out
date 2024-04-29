@@ -1,0 +1,41 @@
+ht_create(10)
+ht_insert(table, "ciao", 0)
+ht_insert(table, "pippo", 13)
+ht_insert(table, "prova", 8)
+ht_insert(table, "algoritmi", -9)
+ht_insert(table, "strutture", 11)
+ht_insert(table, "dati", 91)
+ht_search(table, "dati") = FOUND value 91
+ht_search(table, "pluto") = NOT FOUND
+ht_search(table, "strutture") = FOUND value 11
+ht_count(table) = 6
+[  0] 
+[  1] 
+[  2] ->(prova, 8)->(pippo, 13)->(ciao, 0)
+[  3] 
+[  4] 
+[  5] 
+[  6] ->(strutture, 11)
+[  7] 
+[  8] ->(dati, 91)->(algoritmi, -9)
+[  9] 
+ht_delete(table, "pippo") = 1 (OK)
+[  0] 
+[  1] 
+[  2] ->(prova, 8)->(ciao, 0)
+[  3] 
+[  4] 
+[  5] 
+[  6] ->(strutture, 11)
+[  7] 
+[  8] ->(dati, 91)->(algoritmi, -9)
+[  9] 
+ht_insert(table, "ciao", -99)
+ht_search(table, "ciao") = FOUND value -99
+ht_delete(table, "ciao") = 1 (OK)
+ht_search(table, "ciao") = NOT FOUND
+ht_search(table, "pippo") = NOT FOUND
+ht_count(table) = 4
+ht_clear(table)
+ht_insert(table, "ciao", -99)
+ht_count(table) = 1
