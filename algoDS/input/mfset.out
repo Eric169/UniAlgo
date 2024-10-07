@@ -1,0 +1,11 @@
+mgset_create(10)
+mfset_merge(0, 1)
+mfset_merge(2, 3)
+mfset_merge(4, 5)
+mfset_merge(6, 7)
+mfset_merge(8, 9)
+mfset_merge(0, 2)
+query(0, 2) = 1
+query(0, 3) = 1
+query(1, 4) = 0
+query(5, 9) = 0

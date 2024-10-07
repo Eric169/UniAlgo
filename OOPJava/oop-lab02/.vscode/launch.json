@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Collatz",
+            "request": "launch",
+            "mainClass": "Collatz",
+            "projectName": "oop-lab02_6651c7cf"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ComplexNum",
+            "request": "launch",
+            "mainClass": "compilation.lab.math.ComplexNum",
+            "projectName": "oop-lab02_6651c7cf"
+        },
+        {
+            "type": "java",
+            "name": "MyCircularArray",
+            "request": "launch",
+            "mainClass": "it.unibo.arrays.MyCircularArray",
+            "projectName": "oop-lab02_6651c7cf"
+        },
+        {
+            "type": "java",
+            "name": "PlayWithSmartphoneArrays",
+            "request": "launch",
+            "mainClass": "it.unibo.arrays.PlayWithSmartphoneArrays",
+            "projectName": "oop-lab02_6651c7cf"
+        },
+        {
+            "type": "java",
+            "name": "SeqRecognizer",
+            "request": "launch",
+            "mainClass": "it.unibo.arrays.SeqRecognizer",
+            "projectName": "oop-lab02_6651c7cf"
+        },
+        {
+            "type": "java",
+            "name": "WorkWithArrays",
+            "request": "launch",
+            "mainClass": "it.unibo.arrays.WorkWithArrays",
+            "projectName": "oop-lab02_6651c7cf"
+        },
+        {
+            "type": "java",
+            "name": "Smartphone",
+            "request": "launch",
+            "mainClass": "it.unibo.constructors.Smartphone",
+            "projectName": "oop-lab02_6651c7cf"
+        },
+        {
+            "type": "java",
+            "name": "UseConstructors",
+            "request": "launch",
+            "mainClass": "it.unibo.constructors.UseConstructors",
+            "projectName": "oop-lab02_6651c7cf"
+        },
+        {
+            "type": "java",
+            "name": "UseConstructorsEvolved",
+            "request": "launch",
+            "mainClass": "it.unibo.constructors.UseConstructorsEvolved",
+            "projectName": "oop-lab02_6651c7cf"
+        }
+    ]
+}

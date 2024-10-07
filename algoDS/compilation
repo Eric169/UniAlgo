@@ -33,3 +33,14 @@ gcc -std=c90 -Wall -Wpedantic list.c graph.c bfs.c -o bfs
 
 gcc -std=c90 -Wall -Wpedantic graph.c dfs.c -o dfs
 ./dfs /home/eric/Desktop/uniAlgo/algoDS/input/graph10.in
+
+gcc -std=c90 -Wall -Wpedantic mfset.c mfset-main.c -o mfset
+./mfset-main /home/eric/Desktop/uniAlgo/algoDS/input/mfset.in
+
+gcc -std=c90 -Wall -Wpedantic kruskal.c mfset.c -o kruskal
+./kruskal /home/eric/Desktop/uniAlgo/algoDS/input/mst10.in
+
+gcc -std=c90 -Wall -Wpedantic 0001114079.c -o progetto
+./progetto /home/eric/Desktop/uniAlgo/algoDS/input/test0.in
+
+valgrand cool to see memory leaks and allocs
