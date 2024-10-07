@@ -1,5 +1,0 @@
-Per compilare, il binario va in bin/
-javac -d bin src/App.java 
-
-Per eseguire il binario in bin
-java -cp "bin:lib" App
